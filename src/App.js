@@ -21,16 +21,6 @@ function App() {
         slogan='Bold Vision, Strategic Action'
         date='October 28, 2020'
       />
-      <main id='main'>
-        <About />
-        <Schedule />
-        <Speakers />
-        <Subscribe />
-        <Gallery />
-        <Sponsors />
-        <FAQ />
-        <Contact />
-      </main>
     </div>
   );
 }
