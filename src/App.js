@@ -21,7 +21,7 @@ function App() {
         slogan='Bold Vision, Strategic Action'
         date='October 28, 2020'
       />
-        <About />
+      <Schedule />
     </div>
   );
 }
