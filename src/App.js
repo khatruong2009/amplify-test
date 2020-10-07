@@ -11,6 +11,7 @@ import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Link } from 'react-scroll';
 
 function App() {
   return (
@@ -24,10 +25,11 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
+        <Subscribe />
       </main>
-      <a href='#' class='back-to-top'>
+      <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
-      </a>
+      </Link>
     </div>
   );
 }
