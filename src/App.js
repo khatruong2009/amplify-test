@@ -24,11 +24,6 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
-        <Subscribe />
-        <Gallery />
-        <Sponsors />
-        <FAQ />
-        <Contact />
       </main>
       <Footer />
       <a href='#' class='back-to-top'>
