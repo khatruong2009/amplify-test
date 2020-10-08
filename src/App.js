@@ -26,8 +26,10 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
-        <FAQ />
       </main>
+      <Link href='#' class='back-to-top'>
+        <i class='fa fa-angle-up'></i>
+      </Link>
     </div>
   );
 }
