@@ -16,21 +16,8 @@ import { Link } from 'react-scroll';
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
       <Header />
-      <Intro
-        title='12th North American Leadership Forum'
-        slogan='Bold Vision, Strategic Action'
-        date='October 28, 2020'
-      />
-      <main id="main">
-        <Schedule />
-        <Speakers />
-        <Subscribe />
-      </main>
-      <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
-        <i class='fa fa-angle-up'></i>
-      </Link>
+      
     </div>
   );
 }
