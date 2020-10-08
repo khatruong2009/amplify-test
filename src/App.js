@@ -26,7 +26,6 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
-        <Contact />
       </main>
       <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
