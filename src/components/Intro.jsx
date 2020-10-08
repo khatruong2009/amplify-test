@@ -12,7 +12,7 @@ function Intro(props) {
             <p id="intro-p" className="mb-4 pb-0">{props.date}</p>
             {/* <a href="https://www.youtube.com/watch?v=fVkrz-W1rY4" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> */}
             <div>
-                <Link id="2rem" to="#schedule" style={{fontSize: "2rem"}} className="about-btn scrollto intro-btn" smooth={true} duration={1000}>Agenda </Link>
+                <Link id="2rem" to="schedule" style={{fontSize: "2rem"}} className="about-btn scrollto intro-btn" smooth={true} duration={1000}>Agenda </Link>
             </div>
         </div>
     </section> //End Intro Section
