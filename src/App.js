@@ -23,7 +23,7 @@ function App() {
         date='October 28, 2020'
       />
       <main id="main">
-        <About />
+        <Schedule />
       </main>
     </div>
   );
