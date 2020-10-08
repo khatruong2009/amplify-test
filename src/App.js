@@ -17,7 +17,7 @@ import Sponsor from './components/Sponsor';
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <Intro
         title='12th North American Leadership Forum'
         slogan='Bold Vision, Strategic Action'
@@ -29,8 +29,7 @@ function App() {
       </main>
       <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
-      </Link> */}
-      <Footer />
+      </Link>
     </div>
   );
 }
