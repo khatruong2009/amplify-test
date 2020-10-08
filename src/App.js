@@ -17,7 +17,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
+      <Intro
+        title='12th North American Leadership Forum'
+        slogan='Bold Vision, Strategic Action'
+        date='October 28, 2020'
+      />
     </div>
   );
 }
