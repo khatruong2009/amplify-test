@@ -23,11 +23,11 @@ function App() {
         slogan='Bold Vision, Strategic Action'
         date='October 28, 2020'
       />
-      <About />
       <main id="main">
         <Schedule />
         <Speakers />
       </main>
+      <Footer />
       <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
       </Link>
