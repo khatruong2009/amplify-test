@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <h1>test</h1>
-      {/* <Header />
+      <Header />
       <Intro
         title='12th North American Leadership Forum'
         slogan='Bold Vision, Strategic Action'
@@ -30,7 +30,7 @@ function App() {
       </main>
       <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
-      </Link> */}
+      </Link>
     </div>
   );
 }
