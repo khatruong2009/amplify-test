@@ -12,6 +12,7 @@ import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Link } from 'react-scroll';
+import Sponsor from './components/Sponsor';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
-        <Gallery />
+        <Sponsor />
       </main>
     </div>
   );
