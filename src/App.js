@@ -25,8 +25,7 @@ function App() {
       <main id="main">
         <Schedule />
         <Speakers />
-        <Subscribe />
-        <FAQ />
+        <Gallery />
       </main>
     </div>
   );
