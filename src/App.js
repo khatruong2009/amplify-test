@@ -27,7 +27,8 @@ function App() {
         <Schedule />
         <Speakers />
       </main>
-      <Link href='#' class='back-to-top'>
+      <Footer />
+      <Link to='intro' class='back-to-top' smooth={true} duration={1000}>
         <i class='fa fa-angle-up'></i>
       </Link>
     </div>
