@@ -26,7 +26,7 @@ function App() {
         <Schedule />
         <Speakers />
         <Subscribe />
-        <Gallery />
+        <Sponsors />
       </main>
     </div>
   );
